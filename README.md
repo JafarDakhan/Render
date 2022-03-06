@@ -20,7 +20,7 @@ Run make.bat to build the exe.
 ________
 
 ![](https://user-images.githubusercontent.com/88181694/156914817-83f808c3-0be4-4572-91bc-b77a8b1e3f4f.jpg)
-## License & credit
+## License
 The code in is repo is licensed under the MIT License:
 
 [MIT](https://choosealicense.com/licenses/mit/)
