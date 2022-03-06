@@ -68,7 +68,7 @@ void Render(int xOffset, int yOffset, int style){/*{{{*/
 					uint8_t red = y + yOffset;
 					uint8_t green = 150;
 
-		//			*pixel++ = 0xffb703;
+					//*pixel++ = 0xffb703;
 					*pixel++ = ((blue << 8) | (red << 8) | (green << 4));
 				}
 				row += pitch;
@@ -117,11 +117,6 @@ LRESULT CALLBACK Winproc(HWND window, UINT msg, WPARAM wParam, LPARAM lParam){/*
 
 	LRESULT result = 0;
 	switch(msg){
-
-		// Window is being created.
-		case WM_CREATE:
-		{
-		}break;
 
 		case WM_SIZE:
 		{
@@ -206,10 +201,14 @@ int CALLBACK WinMain(HINSTANCE instance, HINSTANCE prevInstance, LPSTR cmdLine, 
 					TranslateMessage(&msg);
 					DispatchMessage(&msg);		// Send the message to window proc
 				}
+
+				// Init the buffer
 				Render(xOffset, yOffset, _Tiles);
 
 				HDC deviceContext = GetDC(window);
 				winDimension winDim = GetWinDimension(window);
+
+				// Draw the buffer
 				Win32DrawBuffer(deviceContext, bitmapWidth, bitmapHeight, winDim.width, winDim.height);
 				xOffset++;
 				yOffset++;
@@ -222,4 +221,5 @@ int CALLBACK WinMain(HINSTANCE instance, HINSTANCE prevInstance, LPSTR cmdLine, 
 
 	return 0;
 }/*}}}*/
+
 
