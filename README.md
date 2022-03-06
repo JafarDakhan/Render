@@ -1,7 +1,7 @@
 
 # 📺 Rendering demo
 
-I'm learning the basics of rendering using Win32 and C. I've made these simple demos that use the CPU to render a buffer of pixels from the memory into the screen. All this was built from scratch, without the use of any graphics library.
+I'm learning the basics of rendering using Win32 and C. I've made this simple demo that uses the CPU to render a buffer of pixels from the memory into the screen. All this was built from scratch, without the use of any graphics library.
 
 It's not the most efficient way to render things on the screen, But it's good if you wanna learn the basics of how rendering works.
 
