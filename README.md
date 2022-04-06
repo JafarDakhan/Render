@@ -21,7 +21,7 @@ ________
 
 ![](https://user-images.githubusercontent.com/88181694/156914817-83f808c3-0be4-4572-91bc-b77a8b1e3f4f.jpg)
 ## License
-The code in is repo is licensed under the MIT License:
+The code in this repo is licensed under the MIT License:
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
