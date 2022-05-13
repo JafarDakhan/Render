@@ -9,7 +9,7 @@ It's not the most efficient way to render things on the screen, But it's good if
 ![](https://user-images.githubusercontent.com/88181694/156913186-aaef8017-804b-47c9-8391-af225107908f.png)
 
 ## Goal
-My initial plan for this project was to develop a complete optimized renderer from scratch only using C language, and without using any libraries. But every time I start a project, I just never finish it. so I'm not sure about this one.   
+My initial plan for this project was to develop a complete optimized renderer from scratch only using C language, and without using any libraries. But every time I start a project, I just never finish it. so, I'll leave it like this for now.  
 
 
 ## Compile
